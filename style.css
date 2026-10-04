@@ -1,0 +1,41 @@
+body{
+    background-color:beige;
+    margin: 0;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.nav{
+    background-color: rgb(23, 20, 26);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 24px;
+    color: violet;
+}
+
+.main{
+    background-color: rgb(23, 20, 26);
+    flex-grow: 1;
+    display: flex;
+}
+
+.img-view{
+    margin: auto;
+    border-radius: 0;
+    border: 2px solid violet;
+    scale: 1;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid violet;
+    min-width: 10%;
+    color: white;
+}
