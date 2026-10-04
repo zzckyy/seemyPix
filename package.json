@@ -1,0 +1,16 @@
+{
+  "name": "seemypix",
+  "version": "1.0.0",
+  "description": "photo viewer software",
+  "license": "ISC",
+  "author": "jexxvr",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^44.5.1"
+  }
+}
